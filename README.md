@@ -50,7 +50,7 @@ finanty-proyecto/
 │
 ├── src/ # Código fuente de la aplicación web (HTML, CSS, JS, Java)
 │
-└── README.md # Presentación y guía del repositorio```
+└── README.md # Presentación y guía del repositorio´´´
 
 
 ---
