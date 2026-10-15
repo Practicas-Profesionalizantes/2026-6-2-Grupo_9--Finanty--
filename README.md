@@ -90,8 +90,6 @@ Proyecto desarrollado en el marco de la formación técnica, aplicando conocimie
 
 ---
 
-<p align="center">
-  <strong>FINANTY</strong>
-  <br />
-  <em>Organizá tus finanzas. Simplificá tu día a día.</em>
-</p>
+
+*Organizá tus finanzas. Simplificá tu día a día.*
+
