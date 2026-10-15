@@ -1,14 +1,14 @@
-FINANTY
+**FINANTY**
 
 Administración de Finanzas Personales
 
 ---
 
-«Plataforma web diseñada para centralizar, organizar y consultar los ingresos y gastos personales desde un único lugar.»
+Plataforma web diseñada para centralizar, organizar y consultar los ingresos y gastos personales desde un único lugar.
 
 ---
 
-DESCRIPCIÓN DEL PROYECTO
+**DESCRIPCIÓN DEL PROYECTO**
 
 Finanty surge como una solución a la fragmentación financiera actual, en la que los movimientos económicos se distribuyen entre diferentes medios, como billeteras virtuales, tarjetas y efectivo.
 
@@ -24,7 +24,7 @@ Objetivos principales
 
 ---
 
-STACK TECNOLÓGICO
+**STACK TECNOLÓGICO**
 
 El proyecto está desarrollado utilizando las siguientes tecnologías:
 
@@ -37,7 +37,7 @@ MySQL| Gestión de la base de datos relacional.
 
 ---
 
-ESTRUCTURA DEL REPOSITORIO
+**ESTRUCTURA DEL REPOSITORIO**
 
 El repositorio se organiza en carpetas que permiten mantener separados el código fuente, la documentación y los diagramas del sistema.
 
@@ -56,7 +56,7 @@ finanty-proyecto/
 
 ---
 
-RAMAS DE TRABAJO — GIT FLOW
+**RAMAS DE TRABAJO — GIT FLOW**
 
 Para organizar el desarrollo colaborativo y mantener un flujo de trabajo ordenado, se utilizan las siguientes ramas en Git:
 
@@ -75,14 +75,14 @@ Las ramas "feature/*" permiten trabajar en funcionalidades o áreas específicas
 
 ---
 
-INTEGRANTES DEL EQUIPO
+**INTEGRANTES DEL EQUIPO**
 
-- Juan
-- Valentina
+- Juan Pablo Llanos
+- Valentina Palacios
 
 ---
 
-MARCO ACADÉMICO
+**MARCO ACADÉMICO**
 
 Prácticas Profesionalizantes — Desarrollo de Software
 
