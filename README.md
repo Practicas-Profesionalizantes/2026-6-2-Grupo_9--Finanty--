@@ -41,6 +41,16 @@ MySQL| Gestión de la base de datos relacional.
 
 El repositorio se organiza en carpetas que permiten mantener separados el código fuente, la documentación y los diagramas del sistema.
 
+```text
+finanty-proyecto/
+│
+├── docs/ # Documentación formal (informe, análisis y preguntas)
+│
+├── diagramas/ # Diagramas del sistema (DER, DFD, CPM)
+│
+├── src/ # Código fuente de la aplicación web (HTML, CSS, JS, Java)
+│
+└── README.md # Presentación y guía del repositorio
 
 
 ---
