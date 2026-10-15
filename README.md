@@ -41,6 +41,14 @@ MySQL| Gestión de la base de datos relacional.
 
 El repositorio se organiza en carpetas que permiten mantener separados el código fuente, la documentación y los diagramas del sistema.
 
+
+
+---
+
+**RAMAS DE TRABAJO — GIT FLOW**
+
+Para organizar el desarrollo colaborativo y mantener un flujo de trabajo ordenado, se utilizan las siguientes ramas en Git:
+
 | Rama | Descripción |
 | :--- | :--- |
 | **develop** | La rama principal de trabajo diario. Acá vamos a ir uniendo todo el código de la app (HTML, CSS, JS, PHP y la base de datos). |
@@ -49,21 +57,6 @@ El repositorio se organiza en carpetas que permiten mantener separados el códig
 | **feature/frontend** | Para las tareas relacionadas con la maquetación y las pantallas de la interfaz web. |
 | **feature/backend** | Para los archivos en PHP, la conexión a la base de datos y los endpoints. |
 | **feature/dailys** | Para ir subiendo las minutas, los registros o las notas de las reuniones diarias de Scrum. |
-
----
-
-**RAMAS DE TRABAJO — GIT FLOW**
-
-Para organizar el desarrollo colaborativo y mantener un flujo de trabajo ordenado, se utilizan las siguientes ramas en Git:
-
-Rama| Descripción
-"main"| Versión final y estable del proyecto, con el código definitivo y la documentación completa.
-"develop"| Rama de integración del desarrollo general de la aplicación web.
-"feature/docs"| Elaboración y actualización de la documentación y los análisis.
-"feature/diagramas"| Creación y gestión de los diagramas del sistema.
-"feature/frontend"| Desarrollo de la interfaz visual y las pantallas de la aplicación.
-"feature/backend"| Implementación de la lógica en PHP y conexión con MySQL.
-"feature/dailys"| Registro y documentación de las reuniones diarias del equipo.
 
 Flujo de trabajo
 
