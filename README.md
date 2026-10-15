@@ -1,4 +1,4 @@
-**FINANTY**
+# FINANTY
 
 Administración de Finanzas Personales
 
