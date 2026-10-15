@@ -41,12 +41,14 @@ MySQL| Gestión de la base de datos relacional.
 
 El repositorio se organiza en carpetas que permiten mantener separados el código fuente, la documentación y los diagramas del sistema.
 
-/finanty-proyecto/
-│
-├── /docs/ <-- Documentación formal (informe, análisis y preguntas)
-├── /diagramas/ <-- Diagramas del sistema (DER, DFD, CPM)
-├── /src/ <-- Código fuente de la aplicación web (HTML, CSS, JS, Java)
-└── README.md <-- Presentación y guía del repositorio
+| Rama | Descripción |
+| :--- | :--- |
+| **develop** | La rama principal de trabajo diario. Acá vamos a ir uniendo todo el código de la app (HTML, CSS, JS, PHP y la base de datos). |
+| **feature/docs** | Exclusiva para subir toda la documentación formal (el informe, el análisis y las preguntas). |
+| **feature/diagramas** | Para guardar y subir todos los diagramas del proyecto (DER, DFD, etc.). |
+| **feature/frontend** | Para las tareas relacionadas con la maquetación y las pantallas de la interfaz web. |
+| **feature/backend** | Para los archivos en PHP, la conexión a la base de datos y los endpoints. |
+| **feature/dailys** | Para ir subiendo las minutas, los registros o las notas de las reuniones diarias de Scrum. |
 
 ---
 
