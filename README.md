@@ -2,7 +2,6 @@
 
 Administración de Finanzas Personales
 
----
 
 Plataforma web diseñada para centralizar, organizar y consultar los ingresos y gastos personales desde un único lugar.
 
