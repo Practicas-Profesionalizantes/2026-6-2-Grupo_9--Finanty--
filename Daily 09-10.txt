@@ -1,0 +1,10 @@
+9 de Octubre de 2026
+
+¿Qué hice ayer?
+Completamos la instalación de XAMPP, el Diagrama de Clases y dejamos en revisión los diagramas de Gantt y Burndown Chart.
+
+¿Qué voy a hacer hoy?
+Finalizar los ajustes del Diagrama de Gantt y revisar la documentación de los diagramas de análisis.
+
+¿Tengo algún impedimento?
+Ninguno.

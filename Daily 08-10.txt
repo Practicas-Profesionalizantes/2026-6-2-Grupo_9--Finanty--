@@ -1,0 +1,11 @@
+8 de Octubre de 2026
+
+¿Qué hice ayer?
+Avanzamos en el detalle de los requerimientos funcionales (RF01 a RF06), el cronograma general y el diseño del Diagrama de Clases.
+
+¿Qué voy a hacer hoy?
+Finalizar e instalar la configuración del entorno en XAMPP.
+Trabajar en la elaboración del Burndown Chart, el Diagrama de Gantt y el Camino Crítico (CPM).
+
+¿Tengo algún impedimento?
+Ajuste de dependencias en el camino crítico del cronograma.

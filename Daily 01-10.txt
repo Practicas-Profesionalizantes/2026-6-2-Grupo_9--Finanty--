@@ -1,0 +1,10 @@
+1 de Octubre de 2026
+
+¿Qué hice ayer?
+Iniciamos la planificación del proyecto Finanty y definimos las bases del trabajo en equipo.
+
+¿Qué voy a hacer hoy?
+Crear el proyecto en Jira, definir el backlog inicial y estructurar las 20 épicas del proyecto.
+
+¿Tengo algún impedimento?
+Ninguno.

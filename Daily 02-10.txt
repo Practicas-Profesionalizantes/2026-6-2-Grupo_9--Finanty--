@@ -1,0 +1,10 @@
+2 de Octubre de 2026
+
+¿Qué hice ayer?
+Creamos el proyecto en Jira y definimos las épicas.
+
+¿Qué voy a hacer hoy?
+Agregar y asignar las 100 tareas del backlog en Jira entre Juan Llanos y Valentina Palacios (50 para Juan y 50 para Valentina).
+
+¿Tengo algún impedimento?
+Ninguno.
