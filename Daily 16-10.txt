@@ -1,0 +1,10 @@
+2 de Octubre de 2026
+
+¿Qué hice ayer?
+Pasar a estado Finalizado / Listo las tareas de prototipado de UI (SCRUM-52 a SCRUM-57), el DFD Nivel 0, el DER y la creación del repositorio GitHub (SCRUM-59).
+
+¿Qué voy a hacer hoy?
+Hoy hicimos los README de cada branch (devlop, fronted, backend, docs, diagramas, dailys), una version muy simple de el formulario de registro de usuario y el diagrama de secuencia para el registro de un movimiento
+
+¿Tengo algún impedimento?
+Ninguno.
