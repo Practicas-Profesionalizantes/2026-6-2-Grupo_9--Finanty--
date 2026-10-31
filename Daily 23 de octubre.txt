@@ -1,0 +1,10 @@
+23 de octubre de 2026
+
+¿Qué hice ayer?
+Avancé con la organización de las tareas del proyecto y la documentación que estaba pendiente.
+
+¿Qué voy a hacer hoy?
+Organicé el tablero de Jira y subí el DFD de nivel 0 al repositorio de GitHub. También le pedí a mi compañero algunos materiales que necesito para terminar tareas que todavía tengo pendientes.
+
+¿Tengo algún impedimento?
+Estoy esperando que mi compañero me comparta esos materiales para poder completar algunas tareas.

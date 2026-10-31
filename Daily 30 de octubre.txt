@@ -1,0 +1,9 @@
+30 de octubre de 2026
+¿Qué hice ayer?
+Probé la página en una computadora de la escuela y registré diferencias de tamaño y errores ocasionales de conexión con la base de datos.
+
+¿Qué voy a hacer hoy?
+Ajusté el CSS para mejorar la presentación y terminé de pulir varios detalles de la página. Intenté abrirla en una computadora de la escuela, pero no pude completar la prueba. Voy a probar en otra computadora para revisar si el problema se repite y cerrar los detalles pendientes.
+
+¿Tengo algún impedimento?
+No pude completar la prueba en esa computadora de la escuela. Queda pendiente verificar el sistema en otro equipo y confirmar que la página se adapte correctamente y conecte con la base de datos.

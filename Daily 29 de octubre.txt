@@ -1,0 +1,10 @@
+29 de octubre de 2026
+
+¿Qué hice ayer?
+Continué trabajando en el desarrollo y los últimos detalles de la página.
+
+¿Qué voy a hacer hoy?
+Probé el código de Finanty. Durante las pruebas encontré algunos problemas que parecen solucionables: la página se ve más chica en las computadoras de la escuela que en la de mi casa y, en algunas ocasiones, aparece un error de conexión con la base de datos. Anoté estos inconvenientes para corregirlos y volver a probar el sistema.
+
+¿Tengo algún impedimento?
+La conexión con la base de datos falla de manera ocasional y la presentación visual cambia según la computadora. Tengo que revisar ambos problemas en el entorno de la escuela.
