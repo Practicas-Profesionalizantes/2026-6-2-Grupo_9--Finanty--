@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="automatico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanty - Dashboard</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/auth.js" defer></script>
+    <script src="../js/dashboard.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <aside id="sb">
+            <div class="br">Finanty</div>
+            <button class="ni on" onclick="window.location.href='dashboard.html'">📊 Dashboard</button>
+            <button class="ni" onclick="window.location.href='movimientos.html'">💳 Movimientos</button>
+            <button class="ni" onclick="window.location.href='settings.html'">⚙️ Configuración</button>
+            <button class="ni" onclick="Auth.logout()" style="margin-top:40px; color:var(--er);">🚪 Cerrar Sesión</button>
+        </aside>
+        <main id="mn">
+            <header class="hd">
+                <div class="tt">Panel General</div>
+            </header>
+            <div id="vw">
+                <div class="gr g3" style="margin-bottom:25px;">
+                    <div class="kp">
+                        <span class="kl">Total Ingresos</span>
+                        <div class="kv pos" id="kpi-ingresos">$ 0.00</div>
+                    </div>
+                    <div class="kp">
+                        <span class="kl">Total Gastos</span>
+                        <div class="kv neg" id="kpi-gastos">$ 0.00</div>
+                    </div>
+                    <div class="kp">
+                        <span class="kl">Balance Neto</span>
+                        <div class="kv" id="kpi-balance">$ 0.00</div>
+                    </div>
+                </div>
+                <div class="gr g2">
+                    <div class="card">
+                        <h3>Comparativa General</h3>
+                        <div id="chartIG" class="chart-bars" aria-label="Comparación de ingresos y gastos"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Distribución de Gastos</h3>
+                        <div id="chartCat" class="chart-bars chart-categories" aria-label="Gastos por categoría"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

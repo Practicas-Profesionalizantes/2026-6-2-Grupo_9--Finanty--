@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Finanty - Registro</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="auth-page">
+    <div class="card" style="width:100%; max-width:400px;">
+        <h1>Crear Cuenta</h1>
+        
+        <!-- Formulario corregido con las funciones exactas de auth.js -->
+        <form onsubmit="event.preventDefault(); Auth.register(document.getElementById('r_name').value, document.getElementById('r_email').value, document.getElementById('r_pass').value);">
+            <div class="fl">
+                <label>Nombre Completo</label>
+                <input type="text" id="r_name" required>
+            </div>
+            <div class="fl">
+                <label>Correo Electrónico</label>
+                <input type="email" id="r_email" required>
+            </div>
+            <div class="fl">
+                <label>Contraseña</label>
+                <input type="password" id="r_pass" required>
+            </div>
+            <button type="submit" class="btn pri" style="width:100%;">Registrarse</button>
+        </form>
+        
+        <p style="margin-top:15px; text-align:center; font-size:13px;">¿Ya tenés cuenta? <a href="login.html">Ingresá acá</a></p>
+    </div>
+    <script src="../js/auth.js"></script>
+</body>
+</html>
