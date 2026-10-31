@@ -1,0 +1,301 @@
+openapi: 3.0.3
+info:
+  title: API de Finanty
+  version: 1.0.0
+  description: >-
+    Documentación de los endpoints PHP disponibles en Finanty. La API administra
+    cuentas, movimientos, categorías, medios de pago y preferencias. Salvo registro
+    e inicio de sesión, las operaciones requieren una sesión activa de PHP.
+servers:
+  - url: http://localhost/finanty/backend
+    description: Instalación local de demostración con XAMPP
+tags:
+  - name: Autenticación
+  - name: Movimientos
+  - name: Categorías
+  - name: Medios de pago
+  - name: Configuración
+paths:
+  /auth/register.php:
+    post:
+      tags: [Autenticación]
+      summary: Crear una cuenta
+      description: Registra al usuario y crea categorías y medios predeterminados asociados.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [nombre, email, password]
+              properties:
+                nombre: { type: string, example: Valentina Palacios }
+                email: { type: string, format: email, example: valen@example.com }
+                password: { type: string, format: password }
+      responses:
+        '201': { description: Cuenta creada. }
+        '400': { description: Campos faltantes, correo inválido o correo ya registrado. }
+        '500': { description: Error interno al crear la cuenta. }
+  /auth/login.php:
+    post:
+      tags: [Autenticación]
+      summary: Iniciar sesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string, format: password }
+      responses:
+        '200':
+          description: Inicio correcto; devuelve cookie de sesión.
+          headers:
+            Set-Cookie: { schema: { type: string }, description: Cookie PHP de sesión; conservarla para solicitudes autenticadas. }
+        '400': { description: Faltan datos. }
+        '401': { description: Credenciales incorrectas. }
+        '500': { description: Error interno. }
+  /auth/logout.php:
+    post:
+      tags: [Autenticación]
+      summary: Cerrar sesión
+      security: [{ phpSession: [] }]
+      responses:
+        '200': { description: Sesión finalizada. }
+        '401': { description: No existe una sesión activa. }
+  /api/movimientos.php:
+    get:
+      tags: [Movimientos]
+      summary: Consultar movimientos y resumen
+      security: [{ phpSession: [] }]
+      parameters:
+        - { name: cat, in: query, required: false, schema: { type: integer }, description: Filtra por ID de categoría. }
+        - { name: medio, in: query, required: false, schema: { type: integer }, description: Filtra por ID de medio de pago. }
+      responses:
+        '200':
+          description: Lista filtrada y totales calculados a partir de la misma consulta.
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      movimientos: { type: array, items: { $ref: '#/components/schemas/Movimiento' } }
+                      resumen: { $ref: '#/components/schemas/Resumen' }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al recuperar movimientos. }
+    post:
+      tags: [Movimientos]
+      summary: Registrar un movimiento
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [tipo, monto, id_categoria, id_medio, fecha]
+              properties:
+                tipo: { type: string, enum: [ingreso, gasto] }
+                monto: { type: number, format: float, minimum: 0.01 }
+                id_categoria: { type: integer }
+                id_medio: { type: integer }
+                comercio: { type: string, nullable: true, example: Supermercado }
+                fecha: { type: string, format: date, example: '2026-10-31' }
+      responses:
+        '201': { description: Movimiento registrado. }
+        '400': { description: Faltan campos obligatorios. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al guardar. }
+    put:
+      tags: [Movimientos]
+      summary: Actualizar un movimiento
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id_movimiento, tipo, monto, id_categoria, id_medio, fecha]
+              properties:
+                id_movimiento: { type: integer }
+                tipo: { type: string, enum: [ingreso, gasto] }
+                monto: { type: number, format: float }
+                id_categoria: { type: integer }
+                id_medio: { type: integer }
+                comercio: { type: string, nullable: true }
+                fecha: { type: string, format: date }
+      responses:
+        '200': { description: Movimiento actualizado. }
+        '400': { description: Campos incompletos. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al actualizar. }
+    delete:
+      tags: [Movimientos]
+      summary: Eliminar un movimiento
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id_movimiento]
+              properties:
+                id_movimiento: { type: integer }
+      responses:
+        '200': { description: Movimiento eliminado. }
+        '400': { description: Falta el identificador. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al eliminar. }
+  /api/categorias.php:
+    get:
+      tags: [Categorías]
+      summary: Listar categorías de la cuenta
+      security: [{ phpSession: [] }]
+      responses:
+        '200': { description: Categorías obtenidas. }
+        '401': { description: Sesión no activa o expirada. }
+    post:
+      tags: [Categorías]
+      summary: Crear categoría personal
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [nombre, tipo]
+              properties:
+                nombre: { type: string, example: Mascotas }
+                tipo: { type: string, enum: [ingreso, gasto] }
+      responses:
+        '201': { description: Categoría creada. }
+        '400': { description: Campos faltantes. }
+        '401': { description: Sesión no activa o expirada. }
+    delete:
+      tags: [Categorías]
+      summary: Eliminar categoría personal
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id_categoria]
+              properties:
+                id_categoria: { type: integer }
+      responses:
+        '200': { description: Categoría eliminada. }
+        '400': { description: Falta el identificador. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al borrar. }
+  /api/medios_pago.php:
+    get:
+      tags: [Medios de pago]
+      summary: Listar medios y tipos disponibles
+      security: [{ phpSession: [] }]
+      responses:
+        '200': { description: Devuelve medios de la cuenta y tipos predeterminados o propios. }
+        '401': { description: Sesión no activa o expirada. }
+    post:
+      tags: [Medios de pago]
+      summary: Agregar medio de pago personal
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [nombre, id_tipo_medio]
+              properties:
+                nombre: { type: string, example: Visa Banco Galicia }
+                id_tipo_medio: { type: integer }
+      responses:
+        '201': { description: Medio agregado. }
+        '400': { description: Campos incompletos. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al guardar. }
+    delete:
+      tags: [Medios de pago]
+      summary: Eliminar medio personal
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [id_medio]
+              properties:
+                id_medio: { type: integer }
+      responses:
+        '200': { description: Medio eliminado. }
+        '400': { description: Falta el identificador. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al borrar. }
+  /api/settings.php:
+    get:
+      tags: [Configuración]
+      summary: Consultar preferencias de la sesión
+      security: [{ phpSession: [] }]
+      responses:
+        '200': { description: Preferencia de tema actual. }
+        '401': { description: Sesión no activa o expirada. }
+    post:
+      tags: [Configuración]
+      summary: Guardar tema de interfaz
+      security: [{ phpSession: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [tema]
+              properties:
+                tema: { type: string, enum: [claro, oscuro, automatico] }
+      responses:
+        '200': { description: Preferencia guardada. }
+        '400': { description: Tema inválido. }
+        '401': { description: Sesión no activa o expirada. }
+        '500': { description: Error al actualizar preferencias. }
+components:
+  securitySchemes:
+    phpSession:
+      type: apiKey
+      in: cookie
+      name: PHPSESSID
+      description: Cookie de sesión creada al iniciar sesión. Swagger UI debe conservar cookies del mismo origen.
+  schemas:
+    ApiResponse:
+      type: object
+      properties:
+        status: { type: string, example: ok }
+        mensaje: { type: string, example: Datos obtenidos. }
+    Movimiento:
+      type: object
+      properties:
+        id_movimiento: { type: integer }
+        id_categoria: { type: integer }
+        id_medio: { type: integer }
+        tipo: { type: string, enum: [ingreso, gasto] }
+        monto: { type: number, format: float }
+        comercio: { type: string, nullable: true }
+        fecha: { type: string, format: date }
+        categoria_nombre: { type: string }
+        medio_nombre: { type: string }
+    Resumen:
+      type: object
+      properties:
+        ingresos: { type: number }
+        gastos: { type: number }
+        balance: { type: number }
