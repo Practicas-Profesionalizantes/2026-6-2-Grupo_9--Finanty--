@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Finanty - Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="auth-page">
+    <div class="card" style="width:100%; max-width:400px;">
+        <h1>Iniciar Sesión</h1>
+        
+        <!-- Formulario corregido con las funciones exactas de auth.js -->
+        <form onsubmit="event.preventDefault(); Auth.login(document.getElementById('l_email').value, document.getElementById('l_pass').value);">
+            <div class="fl">
+                <label>Correo Electrónico</label>
+                <input type="email" id="l_email" required>
+            </div>
+            <div class="fl">
+                <label>Contraseña</label>
+                <input type="password" id="l_pass" required>
+            </div>
+            <button type="submit" class="btn pri" style="width:100%;">Ingresar</button>
+        </form>
+        
+        <p style="margin-top:15px; text-align:center; font-size:13px;">¿No tenés cuenta? <a href="register.html">Registrate aquí</a></p>
+    </div>
+    <script src="../js/auth.js"></script>
+</body>
+</html>

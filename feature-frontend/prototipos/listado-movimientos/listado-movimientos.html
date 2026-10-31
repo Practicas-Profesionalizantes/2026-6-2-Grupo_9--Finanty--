@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f4">
+  <meta name="description" content="Listado de movimientos con filtros de demostración para Finanty.">
+  <title>Movimientos — Finanty</title>
+  <link rel="stylesheet" href="listado-movimientos.css">
+  <script src="listado-movimientos.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-lock" href="../dashboard/dashboard.html" aria-label="Finanty, inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 34h8V19H8v15Zm12 0h8V12h-8v22Zm12 0h8V6h-8v28Z" fill="currentColor"/><path d="m9 15 9-5 8 3 12-8" fill="none" stroke="#d9b66e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="5" r="3" fill="#d9b66e"/></svg>
+        </span>
+        <span class="brand-name">Finanty</span>
+      </a>
+      <nav class="top-nav" aria-label="Secciones de Finanty">
+        <a class="nav-link" href="../dashboard/dashboard.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>Inicio</span></a>
+        <a class="nav-link nav-active" href="listado-movimientos.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Movimientos</span></a>
+        <a class="nav-link" href="../registro-movimientos/registro-movimientos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Registrar</span></a>
+        <button class="nav-link" type="button" data-demo-nav="Gráficos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h17M8 15l4-4 3 2 5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gráficos</span></button>
+        <a class="nav-link" href="../configuracion/configuracion.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m19.4 13.5 1.1.9-1.1 1.9-1.4-.5a7.8 7.8 0 0 1-1.7 1l-.3 1.5h-2.2l-.4-1.4a7.6 7.6 0 0 1-2-.1l-.8 1.2-1.9-1.1.5-1.4a7.5 7.5 0 0 1-1-1.7l-1.5-.3v-2.2l1.4-.4a7.6 7.6 0 0 1 .1-2l-1.2-.8 1.1-1.9 1.4.5a7.5 7.5 0 0 1 1.7-1l.3-1.5h2.2l.4 1.4a7.6 7.6 0 0 1 2 .1l.8-1.2 1.9 1.1-.5 1.4a7.5 7.5 0 0 1 1 1.7l1.5.3v2.2l-1.4.4a7.6 7.6 0 0 1-.1 2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><span>Configuración</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="main-content">
+    <div class="welcome-row">
+      <div>
+        <p class="eyebrow"><span aria-hidden="true"></span> CONSULTA PERSONAL</p>
+        <h1>Movimientos</h1>
+        <p class="page-intro">Consultá y organizá tus ingresos y gastos.</p>
+      </div>
+      <a class="button button-primary register-cta" href="../registro-movimientos/registro-movimientos.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span>Registrar movimiento</span>
+      </a>
+    </div>
+
+    <div class="demo-banner" role="note">
+      <span class="demo-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 11v5m0-8h.01" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+      <span><strong>Datos de demostración</strong><span>Son movimientos ficticios para probar filtros y acciones; no provienen de una cuenta ni de MySQL.</span></span>
+      <span class="demo-count" id="demo-count">21 ejemplos</span>
+    </div>
+
+    <section class="panel filters-panel" aria-labelledby="filters-title">
+      <div class="panel-heading filters-heading">
+        <div><p class="section-kicker">ENCONTRÁ UN REGISTRO</p><h2 id="filters-title">Filtros</h2><p>Combiná criterios para acotar el listado.</p></div>
+        <span class="filter-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16M7 12h10m-7 7h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      </div>
+      <form id="filter-form" novalidate>
+        <div class="filter-grid">
+          <div class="field search-field">
+            <label for="search-query">Comercio o descripción</label>
+            <div class="input-with-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m15.5 15.5 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><input id="search-query" name="query" type="search" placeholder="Ej.: supermercado" autocomplete="off"></div>
+          </div>
+          <div class="field">
+            <label for="filter-type">Tipo de movimiento</label>
+            <select id="filter-type" name="type"><option value="all">Todos</option><option value="income">Ingresos</option><option value="expense">Gastos</option></select>
+          </div>
+          <div class="field">
+            <label for="filter-category">Categoría</label>
+            <select id="filter-category" name="category"><option value="all">Todas las categorías</option></select>
+          </div>
+          <div class="field date-field">
+            <label for="date-from">Fecha desde</label>
+            <input id="date-from" name="dateFrom" type="date" aria-describedby="date-error">
+          </div>
+          <div class="field date-field">
+            <label for="date-to">Fecha hasta</label>
+            <input id="date-to" name="dateTo" type="date" aria-describedby="date-error">
+          </div>
+          <div class="field">
+            <label for="filter-payment-type">Tipo de medio de pago</label>
+            <select id="filter-payment-type" name="paymentType"><option value="all">Todos</option></select>
+          </div>
+          <div class="field">
+            <label for="filter-payment-method">Medio de pago específico</label>
+            <select id="filter-payment-method" name="paymentMethod"><option value="all">Todos los medios</option></select>
+          </div>
+        </div>
+        <p class="field-error" id="date-error" role="alert" hidden></p>
+        <div class="filter-actions">
+          <button class="button button-primary apply-button" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>Aplicar filtros</button>
+          <button class="button button-secondary" id="clear-filters" type="button">Limpiar filtros</button>
+          <span class="filter-hint">Los criterios se aplican en conjunto.</span>
+        </div>
+      </form>
+    </section>
+
+    <section class="results-section" aria-labelledby="results-title">
+      <div class="results-heading">
+        <div><p class="section-kicker">HISTORIAL</p><h2 id="results-title">Listado de movimientos</h2><p class="results-summary" id="results-summary" aria-live="polite" aria-atomic="true">Mostrando todos los ejemplos</p></div>
+        <label class="sort-control" for="sort-order"><span>Ordenar</span><select id="sort-order"><option value="newest">Más recientes</option><option value="oldest">Más antiguos</option></select></label>
+      </div>
+
+      <div class="results-count-row"><p class="results-count" id="results-count" aria-live="polite" aria-atomic="true">—</p><span class="results-count-label">resultados</span><span class="results-period">ARS · datos ficticios</span></div>
+
+      <div class="table-wrap" id="table-wrap">
+        <table class="movement-table">
+          <caption class="visually-hidden">Movimientos de demostración filtrados</caption>
+          <thead><tr><th scope="col">Fecha y hora</th><th scope="col">Comercio o descripción</th><th scope="col">Categoría</th><th scope="col">Tipo de medio</th><th scope="col">Medio específico</th><th scope="col">Tipo</th><th scope="col" class="amount-heading">Importe</th><th scope="col" class="actions-heading">Acciones</th></tr></thead>
+          <tbody id="movement-table-body"></tbody>
+        </table>
+      </div>
+      <div class="mobile-list" id="mobile-list" aria-label="Movimientos de demostración"></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="empty-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m15.5 15.5 4.2 4.2M8 10.8h5.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+        <h3>No se encontraron movimientos</h3>
+        <p>Probá con otros criterios o limpiá los filtros para ver todos los ejemplos.</p>
+        <button class="button button-secondary" id="empty-clear" type="button">Limpiar filtros</button>
+      </div>
+    </section>
+
+    <p class="page-feedback" id="page-feedback" role="status" aria-live="polite" hidden></p>
+    <p class="nav-feedback" id="nav-feedback" role="status" aria-live="polite" tabindex="-1" hidden></p>
+    <footer class="page-footer"><span>FINANTY</span><span>Prácticas Profesionalizantes · 6.º año</span></footer>
+  </main>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <div class="dialog-heading"><div><p class="section-kicker">REGISTRO DE DEMOSTRACIÓN</p><h2 id="detail-title">Detalle del movimiento</h2></div><button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar detalle">×</button></div>
+    <div class="detail-content" id="detail-content"></div>
+    <div class="dialog-actions"><button class="button button-secondary" type="button" data-close-dialog>Cerrar</button></div>
+  </dialog>
+
+  <dialog class="edit-dialog" id="edit-dialog" aria-labelledby="edit-title">
+    <form id="edit-form" novalidate>
+      <div class="dialog-heading"><div><p class="section-kicker">EDICIÓN LOCAL</p><h2 id="edit-title">Modificar movimiento</h2><p>Los cambios viven en esta página y no se guardan en una base de datos.</p></div><button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar formulario">×</button></div>
+      <input id="edit-id" type="hidden">
+      <div class="edit-grid">
+        <div class="field edit-wide"><label for="edit-description">Comercio o descripción</label><input id="edit-description" required maxlength="100"></div>
+        <div class="field"><label for="edit-type">Tipo de movimiento</label><select id="edit-type"><option value="income">Ingreso</option><option value="expense">Gasto</option></select></div>
+        <div class="field"><label for="edit-amount">Importe (ARS)</label><input id="edit-amount" type="number" min="0.01" step="0.01" required></div>
+        <div class="field"><label for="edit-date">Fecha</label><input id="edit-date" type="date" required></div>
+        <div class="field"><label for="edit-time">Hora</label><input id="edit-time" type="time" required></div>
+        <div class="field"><label for="edit-category">Categoría</label><select id="edit-category"></select></div>
+        <div class="field"><label for="edit-payment-type">Tipo de medio</label><select id="edit-payment-type"></select></div>
+        <div class="field edit-wide"><label for="edit-payment-method">Medio específico</label><select id="edit-payment-method"></select></div>
+      </div>
+      <p class="edit-error" id="edit-error" role="alert" hidden></p>
+      <div class="dialog-actions"><button class="button button-secondary" type="button" data-close-dialog>Cancelar</button><button class="button button-primary" type="submit">Guardar cambios</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

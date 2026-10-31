@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanty - Movimientos</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/auth.js" defer></script>
+    <script src="../js/movimientos.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <aside id="sb">
+            <div class="br">Finanty</div>
+            <button class="ni" onclick="window.location.href='dashboard.html'"><span class="nav-icon" aria-hidden="true">⌂</span>Dashboard</button>
+            <button class="ni on" onclick="window.location.href='movimientos.html'"><span class="nav-icon" aria-hidden="true">↔</span>Movimientos</button>
+            <button class="ni" onclick="window.location.href='settings.html'"><span class="nav-icon" aria-hidden="true">⚙</span>Configuración</button>
+            <button class="ni logout-link" onclick="Auth.logout()" style="margin-top:auto; color:var(--er);"><span class="nav-icon" aria-hidden="true">↪</span>Cerrar sesión</button>
+        </aside>
+        <main id="mn">
+            <header class="hd">
+                <div class="tt">Registro de Movimientos</div>
+            </header>
+            <div id="vw">
+                <section class="movement-heading">
+                    <div><p class="eyebrow">MOVIMIENTOS</p><h1>Registrar y consultar</h1><p>Organizá tus ingresos y gastos en un solo lugar.</p></div>
+                    <button class="btn pri" type="button" onclick="abrirModalNuevo()">＋ Agregar movimiento</button>
+                </section>
+                <div class="card filter-card">
+                    <div>
+                        <label for="filtro-desde">Desde</label>
+                        <input type="date" id="filtro-desde" onchange="cargarTablaMovimientos()">
+                    </div>
+                    <div>
+                        <label for="filtro-hasta">Hasta</label>
+                        <input type="date" id="filtro-hasta" onchange="cargarTablaMovimientos()">
+                    </div>
+                    <div style="flex:1;">
+                        <label for="filtro-categoria">Categoría</label>
+                        <select id="filtro-categoria" onchange="cargarTablaMovimientos()"><option value="">Todas</option></select>
+                    </div>
+                    <div style="flex:1;">
+                        <label for="filtro-medio">Medio de Pago</label>
+                        <select id="filtro-medio" onchange="cargarTablaMovimientos()"><option value="">Todos</option></select>
+                    </div>
+                    <button class="btn" type="button" onclick="limpiarFiltros()">Limpiar filtros</button>
+                </div>
+                <div class="card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Tipo</th>
+                                <th>Comercio</th>
+                                <th>Categoría</th>
+                                <th>Medio de Pago</th>
+                                <th>Monto</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-movimientos-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Formulario para crear y editar movimientos -->
+    <div class="mbk" id="modal-movimiento" style="display:none;">
+        <div class="md">
+            <div class="mh">
+                <h3 class="modal-title" id="titulo-modal-movimiento">Nuevo movimiento</h3>
+                <button type="button" class="modal-close" onclick="cerrarModal()" aria-label="Cerrar">✕</button>
+            </div>
+            <form onsubmit="guardarMovimiento(event)">
+                <div class="fl">
+                    <label>Tipo</label>
+                    <select id="f_type"><option value="gasto">Gasto</option><option value="ingreso">Ingreso</option></select>
+                </div>
+                <div class="fl">
+                    <label>Monto ($)</label>
+                    <input type="number" step="0.01" id="f_amount" required>
+                </div>
+                <div class="fl">
+                    <label>Fecha</label>
+                    <input type="date" id="f_date" required>
+                </div>
+                <div class="fl">
+                    <label>Comercio / Lugar</label>
+                    <input type="text" id="f_merchant">
+                </div>
+                <div class="fl">
+                    <label>Categoría</label>
+                    <select id="f_category"></select>
+                </div>
+                <div class="fl payment-type-field">
+                    <label for="f_tipo_medio">Tipo de medio de pago</label>
+                    <select id="f_tipo_medio" required><option value="">Seleccionar tipo</option></select>
+                </div>
+                <div class="fl payment-method-field">
+                    <label for="f_medio">Medio de pago</label>
+                    <select id="f_medio" required disabled><option value="">Primero seleccioná un tipo</option></select>
+                </div>
+                <div class="mf">
+                    <button type="button" class="btn" onclick="cerrarModal()">Cancelar</button>
+                    <button type="submit" class="btn pri">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

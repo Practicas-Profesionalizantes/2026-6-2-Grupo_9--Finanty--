@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f4">
+  <meta name="description" content="Prototipo de configuración para la aplicación Finanty.">
+  <title>Configuración — Finanty</title>
+  <link rel="stylesheet" href="configuracion.css">
+  <script src="configuracion.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#settings-main">Saltar a Configuración</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-lock" href="#settings-main" aria-label="Finanty, ir al contenido principal">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 34h8V19H8v15Zm12 0h8V12h-8v22Zm12 0h8V6h-8v28Z" fill="currentColor"/><path d="m9 15 9-5 8 3 12-8" fill="none" stroke="#d9b66e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="5" r="3" fill="#d9b66e"/></svg>
+        </span>
+        <span class="brand-name">Finanty</span>
+      </a>
+      <nav class="top-nav" aria-label="Navegación de demostración">
+        <button type="button" class="nav-button" data-demo-nav="Inicio" aria-label="Inicio, vista de demostración"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span class="nav-label">Inicio</span></button>
+        <button type="button" class="nav-button" data-demo-nav="Movimientos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="nav-label">Movimientos</span></button>
+        <button type="button" class="nav-button" data-demo-nav="Gráficos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h17M8 15l4-4 3 2 5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nav-label">Gráficos</span></button>
+        <a class="nav-current" href="#settings-title" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m19.4 13.5 1.1.9-1.1 1.9-1.4-.5a7.8 7.8 0 0 1-1.7 1l-.3 1.5h-2.2l-.4-1.4a7.6 7.6 0 0 1-2-.1l-.8 1.2-1.9-1.1.5-1.4a7.5 7.5 0 0 1-1-1.7l-1.5-.3v-2.2l1.4-.4a7.6 7.6 0 0 1 .1-2l-1.2-.8 1.1-1.9 1.4.5a7.5 7.5 0 0 1 1.7-1l.3-1.5h2.2l.4 1.4a7.6 7.6 0 0 1 2 .1l.8-1.2 1.9 1.1-.5 1.4a7.5 7.5 0 0 1 1 1.7l1.5.3v2.2l-1.4.4a7.6 7.6 0 0 1-.1 2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><span>Configuración</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="settings-main">
+    <div class="page-heading">
+      <div>
+        <p class="eyebrow"><span aria-hidden="true"></span> TU ESPACIO</p>
+        <h1 id="settings-title">Configuración</h1>
+        <p class="page-intro">Personalizá Finanty y organizá tus categorías y medios de pago.</p>
+      </div>
+      <span class="demo-badge"><span aria-hidden="true"></span> Preferencias de demostración</span>
+    </div>
+
+    <div class="announcement" id="announcement" role="status" aria-live="polite" tabindex="-1" hidden></div>
+
+    <section class="settings-card appearance-card" aria-labelledby="appearance-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">PREFERENCIAS VISUALES</p><h2 id="appearance-title">Apariencia</h2><p>Personalizá la apariencia de Finanty según tus preferencias.</p></div>
+      </div>
+      <fieldset class="theme-options" aria-describedby="theme-hint">
+        <legend class="sr-only">Elegir tema visual</legend>
+        <label class="theme-option" for="theme-light">
+          <input id="theme-light" type="radio" name="theme" value="light">
+          <span class="theme-choice">
+            <span class="theme-preview preview-light" aria-hidden="true"><span class="mini-bar"></span><span class="mini-pane"><i></i><i></i><i></i></span></span>
+            <span class="theme-label"><span class="theme-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><span><strong>Claro</strong><small>Fondos claros y lectura cómoda</small></span><span class="radio-mark" aria-hidden="true"></span></span>
+          </span>
+        </label>
+        <label class="theme-option" for="theme-dark">
+          <input id="theme-dark" type="radio" name="theme" value="dark">
+          <span class="theme-choice">
+            <span class="theme-preview preview-dark" aria-hidden="true"><span class="mini-bar"></span><span class="mini-pane"><i></i><i></i><i></i></span></span>
+            <span class="theme-label"><span class="theme-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.3 15.2A8.8 8.8 0 0 1 8.8 3.7 8.9 8.9 0 1 0 20.3 15.2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Oscuro</strong><small>Menos luz en ambientes oscuros</small></span><span class="radio-mark" aria-hidden="true"></span></span>
+          </span>
+        </label>
+        <label class="theme-option" for="theme-auto">
+          <input id="theme-auto" type="radio" name="theme" value="auto">
+          <span class="theme-choice">
+            <span class="theme-preview preview-auto" aria-hidden="true"><span class="mini-bar"></span><span class="mini-pane"><i></i><i></i><i></i></span></span>
+            <span class="theme-label"><span class="theme-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 21h8m-4-4v4m0-17v13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><span><strong>Automático</strong><small>Sigue el tema de tu dispositivo</small></span><span class="radio-mark" aria-hidden="true"></span></span>
+          </span>
+        </label>
+      </fieldset>
+      <p class="section-hint" id="theme-hint">La preferencia se conserva en este navegador solo para esta demostración.</p>
+    </section>
+
+    <section class="settings-card categories-card" aria-labelledby="categories-title">
+      <div class="section-heading section-heading-action">
+        <div><p class="section-kicker">ORGANIZACIÓN</p><h2 id="categories-title">Categorías</h2><p>Organizá tus ingresos y gastos mediante categorías.</p></div>
+        <button class="button button-primary button-compact" id="add-category" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Agregar categoría</span></button>
+      </div>
+      <div class="category-columns">
+        <section class="category-group" aria-labelledby="income-heading">
+          <div class="group-heading"><span class="group-dot income-dot" aria-hidden="true"></span><h3 id="income-heading">Ingresos</h3><span class="count-badge" id="income-count">0</span></div>
+          <ul class="item-list" id="income-category-list" aria-label="Categorías de ingresos"></ul>
+        </section>
+        <section class="category-group" aria-labelledby="expense-heading">
+          <div class="group-heading"><span class="group-dot expense-dot" aria-hidden="true"></span><h3 id="expense-heading">Gastos</h3><span class="count-badge" id="expense-count">0</span></div>
+          <ul class="item-list" id="expense-category-list" aria-label="Categorías de gastos"></ul>
+        </section>
+      </div>
+      <p class="section-hint">Las categorías predeterminadas están protegidas. Las personalizadas se guardan localmente en esta demostración.</p>
+    </section>
+
+    <section class="settings-card payments-card" aria-labelledby="payments-title">
+      <div class="section-heading section-heading-action">
+        <div><p class="section-kicker">MEDIOS PARA TUS REGISTROS</p><h2 id="payments-title">Tipos y medios de pago</h2><p>Administrá los medios que utilizás para registrar tus ingresos y gastos.</p></div>
+        <button class="button button-secondary button-compact" id="add-payment-type" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Agregar tipo</span></button>
+      </div>
+      <p class="relation-hint"><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 7h5l3 5h6m-3-3 3 3-3 3M5 17h5l3-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Tipo de medio</strong> <span aria-hidden="true">→</span> <strong>Medio específico</strong><small>Cada medio específico pertenece a un solo tipo.</small></span></p>
+      <div class="payment-type-list" id="payment-type-list"></div>
+      <p class="section-hint">Los tipos y medios predeterminados no se pueden eliminar. La demostración no consulta movimientos reales ni relaciones guardadas en una base de datos.</p>
+    </section>
+
+    <footer class="page-footer"><span>FINANTY</span><span>Prácticas Profesionalizantes · 6.º año</span></footer>
+  </main>
+
+  <dialog class="editor-dialog" id="editor-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-help">
+    <div class="dialog-heading">
+      <div><p class="section-kicker">CONFIGURACIÓN LOCAL</p><h2 id="dialog-title">Agregar elemento</h2></div>
+      <button class="icon-button close-dialog" id="close-dialog" type="button" aria-label="Cerrar ventana"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    </div>
+    <p class="dialog-help" id="dialog-help"></p>
+    <form id="editor-form" novalidate>
+      <div class="modal-field" id="category-kind-wrap" hidden>
+        <label for="category-kind">Tipo de categoría <span class="required-mark" aria-hidden="true">*</span></label>
+        <select id="category-kind" name="category-kind"><option value="income">Ingreso</option><option value="expense">Gasto</option></select>
+      </div>
+      <div class="modal-field" id="payment-type-wrap" hidden>
+        <label for="payment-type-select">Tipo de medio de pago <span class="required-mark" aria-hidden="true">*</span></label>
+        <select id="payment-type-select" name="payment-type"></select>
+        <p class="field-hint">El medio específico se asociará a este tipo.</p>
+      </div>
+      <div class="modal-field">
+        <label id="entity-name-label" for="entity-name">Nombre <span class="required-mark" aria-hidden="true">*</span></label>
+        <input id="entity-name" name="name" type="text" maxlength="80" autocomplete="off" aria-describedby="entity-name-hint editor-error" required>
+        <p class="field-hint" id="entity-name-hint">Usá un nombre fácil de reconocer.</p>
+        <p class="field-error" id="editor-error" role="alert" hidden></p>
+      </div>
+      <div class="dialog-actions">
+        <button class="button button-secondary" id="cancel-dialog" type="button">Cancelar</button>
+        <button class="button button-primary" type="submit" id="save-dialog">Guardar</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

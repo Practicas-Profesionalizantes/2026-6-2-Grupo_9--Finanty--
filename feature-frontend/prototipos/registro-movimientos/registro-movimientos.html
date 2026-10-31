@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f4">
+  <meta name="description" content="Prototipo frontend para registrar un ingreso o gasto en Finanty.">
+  <title>Registrar movimiento — Finanty</title>
+  <link rel="stylesheet" href="registro-movimientos.css">
+  <script src="registro-movimientos.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#movement-form">Saltar al formulario</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-lock" href="#main-content" aria-label="Finanty, ir al contenido principal">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 34h8V19H8v15Zm12 0h8V12h-8v22Zm12 0h8V6h-8v28Z" fill="currentColor"/><path d="m9 15 9-5 8 3 12-8" fill="none" stroke="#d9b66e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="5" r="3" fill="#d9b66e"/></svg>
+        </span>
+        <span class="brand-name">Finanty</span>
+      </a>
+
+      <nav class="top-nav" aria-label="Navegación de demostración">
+        <button class="nav-button" type="button" data-demo-nav="Panel principal" aria-label="Panel principal, vista de demostración">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <span class="nav-label">Panel</span>
+        </button>
+        <a class="nav-current" href="#main-content" aria-current="page">Movimientos</a>
+        <button class="nav-button" type="button" data-demo-nav="Configuración" aria-label="Configuración, vista de demostración">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m19.4 13.5 1.1.9-1.1 1.9-1.4-.5a7.8 7.8 0 0 1-1.7 1l-.3 1.5h-2.2l-.4-1.4a7.6 7.6 0 0 1-2-.1l-.8 1.2-1.9-1.1.5-1.4a7.5 7.5 0 0 1-1-1.7l-1.5-.3v-2.2l1.4-.4a7.6 7.6 0 0 1 .1-2l-1.2-.8 1.1-1.9 1.4.5a7.5 7.5 0 0 1 1.7-1l.3-1.5h2.2l.4 1.4a7.6 7.6 0 0 1 2 .1l.8-1.2 1.9 1.1-.5 1.4a7.5 7.5 0 0 1 1 1.7l1.5.3v2.2l-1.4.4a7.6 7.6 0 0 1-.1 2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          <span class="nav-label">Configuración</span>
+        </button>
+      </nav>
+    </div>
+    <p class="nav-feedback" id="nav-feedback" role="status" aria-live="polite" hidden></p>
+  </header>
+
+  <main class="page" id="main-content">
+    <div class="page-heading">
+      <div>
+        <p class="eyebrow"><span aria-hidden="true"></span> MOVIMIENTOS</p>
+        <h1>Registrar movimiento</h1>
+        <p class="page-intro">Ingresá los datos de tu movimiento financiero.</p>
+      </div>
+      <span class="demo-badge"><span aria-hidden="true"></span> Prototipo interactivo</span>
+    </div>
+
+    <form class="form-card" id="movement-form" novalidate>
+      <fieldset class="field type-fieldset" id="type-field">
+        <legend>Tipo de movimiento <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></legend>
+        <p class="field-hint" id="type-hint">Elegí si vas a registrar dinero que ingresó o un gasto.</p>
+        <div class="type-options">
+          <label class="type-option income-option" for="type-income">
+            <input id="type-income" name="movement-type" type="radio" value="ingreso" aria-describedby="type-hint type-error" required>
+            <span class="type-option-inner"><span class="type-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 16 16 5M7 5h9v9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Ingreso</strong><small>Dinero que recibiste</small></span><span class="choice-dot" aria-hidden="true"></span></span>
+          </label>
+          <label class="type-option expense-option" for="type-expense">
+            <input id="type-expense" name="movement-type" type="radio" value="gasto" aria-describedby="type-hint type-error" required>
+            <span class="type-option-inner"><span class="type-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 8 16 19M7 19h9v-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Gasto</strong><small>Dinero que utilizaste</small></span><span class="choice-dot" aria-hidden="true"></span></span>
+          </label>
+        </div>
+        <p class="field-error" id="type-error" aria-live="polite" hidden></p>
+      </fieldset>
+
+      <div class="field amount-field" id="amount-field">
+        <label for="amount">Importe <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+        <p class="field-hint" id="amount-hint">Ingresá un valor mayor que cero. Podés usar hasta dos decimales.</p>
+        <div class="amount-control">
+          <span class="currency-symbol" aria-hidden="true">$</span>
+          <input id="amount" name="amount" type="text" inputmode="decimal" autocomplete="off" placeholder="0,00" maxlength="15" aria-describedby="amount-hint amount-error" required>
+          <span class="currency-code" aria-label="Pesos argentinos">ARS</span>
+        </div>
+        <p class="field-error" id="amount-error" aria-live="polite" hidden></p>
+      </div>
+
+      <div class="form-grid">
+        <div class="field" id="date-field">
+          <label for="movement-date">Fecha <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+          <div class="control-wrap"><svg class="control-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 3.5v3M16.5 3.5v3M4 9h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="movement-date" name="date" type="date" aria-describedby="date-hint date-error" required></div>
+          <p class="field-hint" id="date-hint">Podés modificar la fecha si hace falta.</p>
+          <p class="field-error" id="date-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field" id="time-field">
+          <label for="movement-time">Hora <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+          <div class="control-wrap"><svg class="control-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><input id="movement-time" name="time" type="time" aria-describedby="time-hint time-error" required></div>
+          <p class="field-hint" id="time-hint">Hora local del movimiento.</p>
+          <p class="field-error" id="time-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field" id="category-field">
+          <label for="category">Categoría <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+          <select id="category" name="category" aria-describedby="category-hint category-error" required disabled>
+            <option value="">Primero elegí el tipo de movimiento</option>
+          </select>
+          <p class="field-hint" id="category-hint">Las categorías se administran desde Configuración.</p>
+          <p class="field-error" id="category-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field" id="payment-type-field">
+          <label for="payment-type">Tipo de medio de pago <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+          <select id="payment-type" name="payment-type" aria-describedby="payment-type-hint payment-type-error" required>
+            <option value="">Seleccionar tipo</option>
+            <option value="wallet">Billeteras virtuales</option>
+            <option value="card">Tarjetas</option>
+            <option value="cash">Efectivo</option>
+          </select>
+          <p class="field-hint" id="payment-type-hint">Indicá el grupo del medio que usaste.</p>
+          <p class="field-error" id="payment-type-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field full-width" id="payment-field">
+          <label for="payment-method">Medio de pago <span class="required-mark" aria-hidden="true">*</span><span class="sr-only">Obligatorio</span></label>
+          <select id="payment-method" name="payment-method" aria-describedby="payment-hint payment-error" required disabled>
+            <option value="">Seleccionar medio</option>
+          </select>
+          <p class="field-hint" id="payment-hint">Primero seleccioná un tipo de medio de pago.</p>
+          <p class="field-error" id="payment-error" aria-live="polite" hidden></p>
+        </div>
+
+        <div class="field full-width" id="description-field">
+          <label for="description">Comercio o descripción <span class="optional-label">Opcional</span></label>
+          <input id="description" name="description" type="text" maxlength="150" autocomplete="off" placeholder="Ej.: Supermercado, transporte o cobro de sueldo" aria-describedby="description-hint">
+          <p class="field-hint" id="description-hint">Podés indicar un comercio o describir el movimiento con hasta 150 caracteres.</p>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button class="button button-secondary" id="cancel-button" type="button">Cancelar</button>
+        <button class="button button-primary" type="submit"><span>Guardar movimiento</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+
+      <section class="feedback" id="form-feedback" role="status" aria-live="polite" tabindex="-1" hidden>
+        <span class="feedback-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><h2 id="feedback-title">Movimiento registrado en la demostración</h2><p id="feedback-copy"></p><p class="summary-copy" id="summary-copy"></p></div>
+      </section>
+      <p class="demo-note"><span aria-hidden="true">i</span> Esta pantalla es una demostración: los datos no se envían ni se guardan en una cuenta.</p>
+    </form>
+
+    <footer class="page-footer"><span>FINANTY</span><span>Prácticas Profesionalizantes · 6.º año</span></footer>
+  </main>
+</body>
+</html>

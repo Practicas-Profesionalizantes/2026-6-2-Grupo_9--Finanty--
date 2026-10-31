@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f4">
+  <meta name="description" content="Dashboard de demostración de la aplicación de finanzas personales Finanty.">
+  <title>Inicio — Finanty</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#dashboard-main">Saltar al contenido principal</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand-lock" href="#dashboard-main" aria-label="Finanty, inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 34h8V19H8v15Zm12 0h8V12h-8v22Zm12 0h8V6h-8v28Z" fill="currentColor"/><path d="m9 15 9-5 8 3 12-8" fill="none" stroke="#d9b66e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="5" r="3" fill="#d9b66e"/></svg>
+        </span>
+        <span class="brand-name">Finanty</span>
+      </a>
+      <nav class="top-nav" aria-label="Secciones de Finanty">
+        <a class="nav-link nav-active" href="#dashboard-title" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>Inicio</span></a>
+        <button class="nav-link" type="button" data-demo-section="Movimientos" aria-label="Movimientos, navegación pendiente de integración"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Movimientos</span></button>
+        <a class="nav-link" href="../registro-movimientos/registro-movimientos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Registrar</span></a>
+        <button class="nav-link" type="button" data-demo-section="Gráficos" aria-label="Gráficos, navegación pendiente de integración"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h17M8 15l4-4 3 2 5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gráficos</span></button>
+        <a class="nav-link" href="../configuracion/configuracion.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m19.4 13.5 1.1.9-1.1 1.9-1.4-.5a7.8 7.8 0 0 1-1.7 1l-.3 1.5h-2.2l-.4-1.4a7.6 7.6 0 0 1-2-.1l-.8 1.2-1.9-1.1.5-1.4a7.5 7.5 0 0 1-1-1.7l-1.5-.3v-2.2l1.4-.4a7.6 7.6 0 0 1 .1-2l-1.2-.8 1.1-1.9 1.4.5a7.5 7.5 0 0 1 1.7-1l.3-1.5h2.2l.4 1.4a7.6 7.6 0 0 1 2 .1l.8-1.2 1.9 1.1-.5 1.4a7.5 7.5 0 0 1 1 1.7l1.5.3v2.2l-1.4.4a7.6 7.6 0 0 1-.1 2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><span>Configuración</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="dashboard-main">
+    <div class="welcome-row">
+      <div>
+        <p class="eyebrow"><span aria-hidden="true"></span> TU PANORAMA</p>
+        <h1 id="dashboard-title">Inicio</h1>
+        <p class="page-intro">Un resumen claro de tus ingresos, gastos y movimientos recientes.</p>
+      </div>
+      <a class="button button-primary register-cta" href="../registro-movimientos/registro-movimientos.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Registrar movimiento</span></a>
+    </div>
+
+    <div class="demo-banner" role="note">
+      <span class="demo-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 11v5m0-8h.01" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+      <span><strong>Vista de demostración</strong><span>Importes ficticios para mostrar la interfaz. No son datos de una cuenta ni provienen de MySQL.</span></span>
+      <span class="period-badge" id="period-label">Octubre 2026</span>
+    </div>
+
+    <section class="summary-grid" aria-label="Resumen de ingresos y gastos">
+      <article class="summary-card income-card">
+        <div class="summary-icon income-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 16 16 5M7 5h9v9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="summary-copy"><p class="summary-label">Total de ingresos</p><p class="summary-period" id="income-period">Octubre 2026 · datos de ejemplo</p><p class="summary-value" id="income-total">—</p></div>
+        <span class="summary-unit">ARS</span>
+      </article>
+      <article class="summary-card expense-card">
+        <div class="summary-icon expense-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 8 16 19M7 19h9v-9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="summary-copy"><p class="summary-label">Total de gastos</p><p class="summary-period" id="expense-period">Octubre 2026 · datos de ejemplo</p><p class="summary-value" id="expense-total">—</p></div>
+        <span class="summary-unit">ARS</span>
+      </article>
+    </section>
+
+    <div class="dashboard-grid">
+      <section class="panel comparison-panel" aria-labelledby="comparison-title">
+        <div class="panel-heading">
+          <div><p class="section-kicker">RESUMEN DEL PERÍODO</p><h2 id="comparison-title">Ingresos vs. gastos</h2><p>Comparación de los movimientos de ejemplo.</p></div>
+          <span class="panel-period" id="comparison-period">Octubre 2026</span>
+        </div>
+        <div class="chart-legend" aria-label="Referencias del gráfico">
+          <span><i class="legend-income" aria-hidden="true"></i>Ingresos</span>
+          <span><i class="legend-expense" aria-hidden="true"></i>Gastos</span>
+        </div>
+        <div class="comparison-chart" id="comparison-chart" role="img" aria-label="Comparación de ingresos y gastos ficticios"></div>
+        <div class="chart-scale" aria-hidden="true"><span>0</span><span>25%</span><span>50%</span><span>75%</span><span>100% del mayor</span></div>
+        <p class="chart-footnote">Las barras usan una escala relativa al total más alto.</p>
+      </section>
+
+      <section class="panel categories-panel" aria-labelledby="category-chart-title">
+        <div class="panel-heading">
+          <div><p class="section-kicker">DISTRIBUCIÓN</p><h2 id="category-chart-title">Gastos por categoría</h2><p>Cómo se distribuyen los gastos del período.</p></div>
+        </div>
+        <div class="category-chart" id="category-chart" role="img" aria-label="Distribución ficticia de gastos por categoría"></div>
+        <p class="chart-footnote" id="category-chart-note">Importes ficticios agrupados por categoría.</p>
+      </section>
+    </div>
+
+    <section class="panel recent-panel" aria-labelledby="recent-title">
+      <div class="panel-heading recent-heading">
+        <div><p class="section-kicker">ACTIVIDAD DE EJEMPLO</p><h2 id="recent-title">Movimientos recientes</h2><p>Una vista rápida de los últimos registros ficticios.</p></div>
+        <button class="text-link" type="button" data-demo-section="Movimientos">Ver todos los movimientos<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <ol class="recent-list" id="recent-list" aria-label="Movimientos ficticios más recientes"></ol>
+    </section>
+
+    <p class="pending-note" id="navigation-note" role="status" aria-live="polite" tabindex="-1" hidden></p>
+    <footer class="page-footer"><span>FINANTY</span><span>Prácticas Profesionalizantes · 6.º año</span></footer>
+  </main>
+</body>
+</html>
