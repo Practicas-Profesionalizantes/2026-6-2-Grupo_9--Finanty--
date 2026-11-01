@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanty - Configuración</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/auth.js" defer></script>
+    <script src="../js/settings.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <aside id="sb">
+            <div class="br">Finanty</div>
+            <button class="ni" onclick="window.location.href='dashboard.html'">Dashboard</button>
+            <button class="ni" onclick="window.location.href='movimientos.html'">Movimientos</button>
+            <button class="ni on" onclick="window.location.href='settings.html'">Configuración</button>
+            <button class="ni logout-link" onclick="Auth.logout()">Cerrar sesión</button>
+        </aside>
+
+        <main id="mn">
+            <header class="hd">
+                <div class="tt">Configuración</div>
+            </header>
+
+            <div id="vw">
+                <section class="settings-intro">
+                    <div>
+                        <p class="eyebrow">TU ESPACIO</p>
+                        <h1>Configuración</h1>
+                        <p>Personalizá Finanty y organizá tus categorías y medios de pago.</p>
+                    </div>
+                    <span class="demo-badge">Preferencias personales</span>
+                </section>
+
+                <section class="card settings-section appearance-section">
+                    <p class="section-kicker">PREFERENCIAS VISUALES</p>
+                    <h2>Apariencia</h2>
+                    <p class="section-description">Personalizá la apariencia de Finanty según tus preferencias.</p>
+
+                    <div class="theme-options" role="radiogroup" aria-label="Esquema de color">
+                        <label class="theme-option">
+                            <input type="radio" name="tema-card" value="claro">
+                            <span class="theme-preview preview-light"><i></i><b></b></span>
+                            <strong>Claro</strong>
+                            <small>Fondos claros y lectura cómoda</small>
+                        </label>
+
+                        <label class="theme-option">
+                            <input type="radio" name="tema-card" value="oscuro">
+                            <span class="theme-preview preview-dark"><i></i><b></b></span>
+                            <strong>Oscuro</strong>
+                            <small>Menos luz en ambientes oscuros</small>
+                        </label>
+
+                        <label class="theme-option">
+                            <input type="radio" name="tema-card" value="automatico">
+                            <span class="theme-preview preview-auto"><i></i><b></b></span>
+                            <strong>Automático</strong>
+                            <small>Sigue el tema de tu dispositivo</small>
+                        </label>
+                    </div>
+
+                    <select id="tema-selector" class="theme-select-accessible" aria-label="Esquema de color">
+                        <option value="automatico">Automático</option>
+                        <option value="claro">Modo Claro</option>
+                        <option value="oscuro">Modo Oscuro</option>
+                    </select>
+
+                    <p class="settings-note">La preferencia se conserva en esta cuenta.</p>
+                </section>
+
+                <section class="card settings-section">
+                    <p class="section-kicker">ORGANIZACIÓN</p>
+                    <div class="section-title-row">
+                        <div>
+                            <h2>Categorías</h2>
+                            <p class="section-description">Organizá tus ingresos y gastos mediante categorías.</p>
+                        </div>
+                        <button class="btn pri" type="button"
+                                onclick="document.getElementById('cat-nombre').focus()">
+                            ＋ Agregar categoría
+                        </button>
+                    </div>
+
+                    <form onsubmit="agregarCategoria(event)" class="settings-add-form category-add-form">
+                        <input type="text" id="cat-nombre" placeholder="Nombre de categoría" required>
+                        <select id="cat-tipo">
+                            <option value="ingreso">Ingreso</option>
+                            <option value="gasto">Gasto</option>
+                        </select>
+                        <button type="submit" class="btn pri">Agregar</button>
+                    </form>
+
+                    <div id="lista-categorias" class="category-groups"></div>
+                    <p class="settings-note">Las categorías predeterminadas están protegidas; las personalizadas se pueden eliminar.</p>
+                </section>
+
+                <section class="card settings-section">
+                    <p class="section-kicker">MEDIOS PARA TUS REGISTROS</p>
+                    <div class="section-title-row">
+                        <div>
+                            <h2>Tipos y medios de pago</h2>
+                            <p class="section-description">Administrá los medios que utilizás para registrar tus ingresos y gastos.</p>
+                        </div>
+                        <button class="btn" type="button"
+                                onclick="document.getElementById('tipo-medio-nombre').focus()">
+                            ＋ Agregar tipo
+                        </button>
+                    </div>
+
+                    <form onsubmit="agregarTipoMedio(event)" class="settings-add-form type-add-form">
+                        <input type="text" id="tipo-medio-nombre" placeholder="Nuevo tipo de medio" maxlength="50" required>
+                        <button type="submit" class="btn">Agregar tipo</button>
+                    </form>
+                    <div id="lista-tipos-medios" class="payment-type-list"></div>
+
+                    <form onsubmit="agregarMedio(event)" class="settings-add-form payment-add-form">
+                        <input type="text" id="medio-nombre" placeholder="Ej.: Visa del Banco Galicia" maxlength="50" required>
+                        <select id="medio-tipo"></select>
+                        <button type="submit" class="btn pri">Agregar medio</button>
+                    </form>
+                    <div id="lista-medios" class="payment-method-groups"></div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

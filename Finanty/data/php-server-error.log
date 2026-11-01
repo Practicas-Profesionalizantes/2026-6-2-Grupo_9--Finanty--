@@ -1,0 +1,1516 @@
+[Sat Oct 31 15:20:34 2026] PHP 8.3.36 Development Server (http://127.0.0.1:8085) started
+[Sat Oct 31 15:20:34 2026] 127.0.0.1:55499 Accepted
+[Sat Oct 31 15:20:34 2026] 127.0.0.1:55499 [302]: GET /
+[Sat Oct 31 15:20:34 2026] 127.0.0.1:55499 Closing
+[Sat Oct 31 15:20:34 2026] 127.0.0.1:55500 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55500 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55500 Closing
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55501 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55502 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55501 [302]: GET /
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55501 Closing
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55502 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55502 Closing
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55503 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55503 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55504 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55505 Accepted
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55504 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55505 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55503 Closing
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55504 Closing
+[Sat Oct 31 15:20:35 2026] 127.0.0.1:55505 Closing
+[Sat Oct 31 15:20:36 2026] 127.0.0.1:55506 Accepted
+[Sat Oct 31 15:20:36 2026] 127.0.0.1:55506 [404]: GET /favicon.ico - No such file or directory
+[Sat Oct 31 15:20:36 2026] 127.0.0.1:55506 Closing
+[Sat Oct 31 15:20:46 2026] 127.0.0.1:55507 Accepted
+[Sat Oct 31 15:20:46 2026] 127.0.0.1:55507 [401]: POST /backend/auth/login.php
+[Sat Oct 31 15:20:46 2026] 127.0.0.1:55507 Closing
+[Sat Oct 31 15:20:52 2026] 127.0.0.1:55509 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55509 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55509 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55511 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55512 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55511 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55511 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55512 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55513 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55514 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55513 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55515 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55514 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55512 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55515 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55513 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55514 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55515 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55517 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55517 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55517 Closing
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55518 Accepted
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55518 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:20:53 2026] 127.0.0.1:55518 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55520 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55520 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55521 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55520 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55521 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55521 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55522 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55522 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55522 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55523 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55523 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55523 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55524 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55524 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55525 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55525 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55524 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55525 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55526 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55526 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55526 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55527 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55527 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55527 Closing
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55530 Accepted
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55530 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:20:58 2026] 127.0.0.1:55530 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55532 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55532 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55533 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55532 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55533 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55533 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55534 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55534 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55534 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55535 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55535 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55535 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55536 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55536 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55537 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55537 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55536 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55537 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55538 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55539 Accepted
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55538 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55538 Closing
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55539 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:21:00 2026] 127.0.0.1:55539 Closing
+[Sat Oct 31 15:21:02 2026] 127.0.0.1:55542 Accepted
+[Sat Oct 31 15:21:02 2026] 127.0.0.1:55542 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:21:02 2026] 127.0.0.1:55542 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55544 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55544 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55544 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55545 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55546 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55545 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55545 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55546 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55546 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55547 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55548 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55547 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55548 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55547 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55548 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55549 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55549 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55549 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55550 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55551 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55550 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55550 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55551 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55551 Closing
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55554 Accepted
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55554 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:21:05 2026] 127.0.0.1:55554 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55556 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55556 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55556 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55557 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55557 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55557 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55558 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55558 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55558 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55559 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55560 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55559 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55560 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55559 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55560 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55561 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55561 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55561 Closing
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55562 Accepted
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55562 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:21:06 2026] 127.0.0.1:55562 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55564 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55564 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55564 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55565 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55565 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55566 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55565 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55567 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55566 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55567 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55566 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55568 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55567 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55568 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55568 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55569 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55569 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55569 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55570 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55571 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55570 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55570 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55571 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55571 Closing
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55574 Accepted
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55574 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:21:12 2026] 127.0.0.1:55574 Closing
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55602 Accepted
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55602 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55602 Closing
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55603 Accepted
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55603 [302]: GET /
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55603 Closing
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55604 Accepted
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55604 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:23:13 2026] 127.0.0.1:55604 Closing
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55605 Accepted
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55605 [302]: GET /
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55605 Closing
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55606 Accepted
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55606 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55606 Closing
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55607 Accepted
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55608 Accepted
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55607 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55608 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55607 Closing
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55608 Closing
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55609 Accepted
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55609 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:14 2026] 127.0.0.1:55609 Closing
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55611 Accepted
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55611 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55611 Closing
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55613 Accepted
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55613 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55613 Closing
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55614 Accepted
+[Sat Oct 31 15:23:23 2026] 127.0.0.1:55615 Accepted
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55614 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55615 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55614 Closing
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55616 Accepted
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55615 Closing
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55616 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55616 Closing
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55617 Accepted
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55617 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55617 Closing
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55618 Accepted
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55618 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55618 Closing
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55619 Accepted
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55619 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:24 2026] 127.0.0.1:55619 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55622 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55622 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55623 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55622 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55623 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55624 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55624 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55623 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55624 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55625 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55626 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55625 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55626 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55625 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55626 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55627 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55627 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55627 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55628 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55628 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55628 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55630 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55630 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55630 Closing
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55632 Accepted
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55632 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:23:27 2026] 127.0.0.1:55632 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55636 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55636 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55636 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55637 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55638 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55638 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55638 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55637 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55637 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55639 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55639 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55639 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55640 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55640 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55640 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55641 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55641 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55641 Closing
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55642 Accepted
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55642 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:23:30 2026] 127.0.0.1:55642 Closing
+[Sat Oct 31 15:23:32 2026] 127.0.0.1:55645 Accepted
+[Sat Oct 31 15:23:32 2026] 127.0.0.1:55645 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:23:32 2026] 127.0.0.1:55646 Accepted
+[Sat Oct 31 15:23:32 2026] 127.0.0.1:55645 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55646 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55647 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55648 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55649 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55647 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55646 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55648 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55649 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55647 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55648 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55649 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55650 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55651 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55650 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55650 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55652 Accepted
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55651 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55651 Closing
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55652 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:33 2026] 127.0.0.1:55652 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55656 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55656 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55656 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55657 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55657 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55658 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55658 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55657 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55658 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55659 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55660 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55659 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55660 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55659 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55660 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55661 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55661 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55661 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55662 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55662 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55662 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55663 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55663 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55663 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55666 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55666 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55666 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55668 Accepted
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55668 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55668 Closing
+[Sat Oct 31 15:23:37 2026] 127.0.0.1:55669 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55669 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55670 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55671 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55669 Closing
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55671 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55670 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55671 Closing
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55670 Closing
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55672 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55672 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55672 Closing
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55673 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55673 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55673 Closing
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55674 Accepted
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55674 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:23:38 2026] 127.0.0.1:55674 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53406 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53406 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53407 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53406 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53407 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53408 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53408 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53407 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53408 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53409 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53409 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53410 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53410 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53409 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53410 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53411 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53411 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53411 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53412 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53413 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53412 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53412 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53413 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53413 Closing
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53416 Accepted
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53416 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:24:03 2026] 127.0.0.1:53416 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53419 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53419 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53419 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53420 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53420 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53420 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53421 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53421 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53422 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53422 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53423 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53421 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53423 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53422 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53423 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53424 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53424 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53424 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53425 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53426 Accepted
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53425 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53425 Closing
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53426 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:24:08 2026] 127.0.0.1:53426 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53429 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53429 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53429 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53430 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53430 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53431 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53431 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53430 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53431 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53432 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53433 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53432 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53433 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53432 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53433 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53434 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53434 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53434 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53435 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53435 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53435 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53436 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53436 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53436 Closing
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53439 Accepted
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53439 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:24:14 2026] 127.0.0.1:53439 Closing
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53550 Accepted
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53550 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53550 Closing
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53551 Accepted
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53551 [302]: GET /
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53551 Closing
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53552 Accepted
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53552 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:27:21 2026] 127.0.0.1:53552 Closing
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53553 Accepted
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53553 [302]: GET /
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53553 Closing
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53554 Accepted
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53554 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53554 Closing
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53555 Accepted
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53556 Accepted
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53556 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53557 Accepted
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53555 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53557 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53556 Closing
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53555 Closing
+[Sat Oct 31 15:27:22 2026] 127.0.0.1:53557 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53558 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53558 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53558 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53560 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53560 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53560 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53561 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53561 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53561 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53562 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53562 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53562 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53563 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53564 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53563 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53564 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53563 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53564 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53565 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53565 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53565 Closing
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53566 Accepted
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53566 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:27:29 2026] 127.0.0.1:53566 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53568 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53568 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53568 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53569 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53570 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53570 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53569 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53570 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53569 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53571 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53572 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53571 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53572 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53571 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53572 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53573 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53573 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53573 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53574 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53574 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53574 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53576 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53576 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53576 Closing
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53578 Accepted
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53578 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:27:34 2026] 127.0.0.1:53578 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53612 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53612 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53612 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53613 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53613 [302]: GET /
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53613 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53614 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53614 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53614 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53615 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53615 [302]: GET /
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53615 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53616 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53617 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53617 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53617 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53616 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53618 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53618 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53616 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53619 Accepted
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53619 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53618 Closing
+[Sat Oct 31 15:30:49 2026] 127.0.0.1:53619 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53620 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53620 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53620 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53622 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53622 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53623 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53622 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53623 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53623 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53624 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53625 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53626 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53624 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53625 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53626 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53624 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53625 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53626 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53627 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53627 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53627 Closing
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53628 Accepted
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53628 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:30:56 2026] 127.0.0.1:53628 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53630 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53630 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53631 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53630 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53631 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53632 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53632 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53631 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53632 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53633 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53634 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53633 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53634 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53633 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53634 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53635 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53635 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53635 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53636 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53637 Accepted
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53636 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53636 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53637 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53637 Closing
+[Sat Oct 31 15:30:57 2026] 127.0.0.1:53640 Accepted
+[Sat Oct 31 15:30:58 2026] 127.0.0.1:53640 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:30:58 2026] 127.0.0.1:53640 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53642 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53642 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53642 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53643 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53644 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53643 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53644 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53643 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53644 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53645 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53646 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53645 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53646 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53645 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53646 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53647 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53647 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53647 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53648 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53649 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53648 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53648 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53649 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53649 Closing
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53652 Accepted
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53652 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:31:01 2026] 127.0.0.1:53652 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53654 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53654 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53654 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53655 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53656 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53656 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53656 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53655 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53655 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53657 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53657 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53657 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53658 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53658 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53658 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53659 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53659 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53659 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53660 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53660 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53660 Closing
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53662 Accepted
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53662 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:31:03 2026] 127.0.0.1:53662 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53664 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53664 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53664 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53665 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53665 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53665 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53666 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53666 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53666 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53667 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53667 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53667 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53668 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53668 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53668 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53669 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53669 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53669 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53670 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53670 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53670 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53671 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53671 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53671 Closing
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53674 Accepted
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53674 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:31:04 2026] 127.0.0.1:53674 Closing
+[Sat Oct 31 15:34:50 2026] 127.0.0.1:53743 Accepted
+[Sat Oct 31 15:34:50 2026] 127.0.0.1:53743 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 15:34:50 2026] 127.0.0.1:53743 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53744 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53744 [302]: GET /
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53744 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53745 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53745 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53745 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53746 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53746 [302]: GET /
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53746 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53747 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53748 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53748 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53748 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53747 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53749 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53747 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53750 Accepted
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53749 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53750 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53749 Closing
+[Sat Oct 31 15:34:51 2026] 127.0.0.1:53750 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53751 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53751 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53751 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53753 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53753 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53753 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53754 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53755 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53754 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53754 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53755 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53755 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53756 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53757 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53756 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53757 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53756 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53757 Closing
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53758 Accepted
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53758 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:34:58 2026] 127.0.0.1:53758 Closing
+[Sat Oct 31 15:34:59 2026] 127.0.0.1:53759 Accepted
+[Sat Oct 31 15:34:59 2026] 127.0.0.1:53759 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:34:59 2026] 127.0.0.1:53759 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53761 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53761 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53761 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53762 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53762 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53763 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53763 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53762 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53763 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53764 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53765 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53764 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53765 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53764 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53765 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53766 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53766 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53766 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53767 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53767 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53767 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53768 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53768 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53768 Closing
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53772 Accepted
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53772 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:35:00 2026] 127.0.0.1:53772 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53776 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53776 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53776 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53777 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53777 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53777 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53778 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53779 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53780 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53778 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53779 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53780 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53778 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53779 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53780 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53781 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53782 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53781 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53781 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53784 Accepted
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53782 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53782 Closing
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53784 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:35:26 2026] 127.0.0.1:53784 Closing
+[Sat Oct 31 15:35:29 2026] 127.0.0.1:53786 Accepted
+[Sat Oct 31 15:35:29 2026] 127.0.0.1:53786 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:35:29 2026] 127.0.0.1:53786 Closing
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53809 Accepted
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53809 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53809 Closing
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53810 Accepted
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53810 [302]: GET /
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53810 Closing
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53811 Accepted
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53811 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:36:58 2026] 127.0.0.1:53811 Closing
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53812 Accepted
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53813 Accepted
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53812 [302]: GET /
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53812 Closing
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53813 [200]: GET /frontend/views/login.html
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53813 Closing
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53814 Accepted
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53814 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53815 Accepted
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53814 Closing
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53815 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53816 Accepted
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53816 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53815 Closing
+[Sat Oct 31 15:36:59 2026] 127.0.0.1:53816 Closing
+[Sat Oct 31 15:37:06 2026] 127.0.0.1:53819 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53819 [200]: POST /backend/auth/login.php
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53819 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53821 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53821 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53821 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53822 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53823 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53822 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53824 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53823 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53825 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53824 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53825 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53822 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53823 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53824 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53825 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53826 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53826 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53826 Closing
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53827 Accepted
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53827 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:07 2026] 127.0.0.1:53827 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53829 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53829 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53829 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53830 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53830 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53830 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53831 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53831 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53831 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53832 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53833 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53832 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53833 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53832 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53833 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53834 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53834 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53834 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53835 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53837 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53835 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53835 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53837 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53837 Closing
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53839 Accepted
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53839 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:37:09 2026] 127.0.0.1:53839 Closing
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53841 Accepted
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53841 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53841 Closing
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53842 Accepted
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53842 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:10 2026] 127.0.0.1:53842 Closing
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53843 Accepted
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53843 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53843 Closing
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53844 Accepted
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53845 Accepted
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53844 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53845 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53844 Closing
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53845 Closing
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53846 Accepted
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53846 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53846 Closing
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53848 Accepted
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53848 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:11 2026] 127.0.0.1:53848 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53849 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53849 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53849 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53851 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53852 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53852 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53851 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53853 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53854 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53852 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53853 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53854 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53851 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53853 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53854 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53855 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53856 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53855 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53855 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53856 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53856 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53857 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53857 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53857 Closing
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53860 Accepted
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53860 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:37:16 2026] 127.0.0.1:53860 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53862 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53863 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53862 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53862 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53863 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53864 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53864 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53863 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53864 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53865 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53866 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53865 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53866 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53865 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53866 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53867 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53867 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53867 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53868 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53868 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53868 Closing
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53869 Accepted
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53869 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:37:24 2026] 127.0.0.1:53869 Closing
+[Sat Oct 31 15:37:25 2026] 127.0.0.1:53872 Accepted
+[Sat Oct 31 15:37:25 2026] 127.0.0.1:53872 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:37:25 2026] 127.0.0.1:53872 Closing
+[Sat Oct 31 15:37:26 2026] 127.0.0.1:53874 Accepted
+[Sat Oct 31 15:37:26 2026] 127.0.0.1:53874 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:37:26 2026] 127.0.0.1:53874 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53879 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53879 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53879 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53881 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53881 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53882 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53881 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53882 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53882 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53883 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53883 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53883 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53884 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53885 Accepted
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53884 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53885 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53884 Closing
+[Sat Oct 31 15:37:28 2026] 127.0.0.1:53885 Closing
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53886 Accepted
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53886 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53886 Closing
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53887 Accepted
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53887 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:29 2026] 127.0.0.1:53887 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53895 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53896 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53895 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53895 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53896 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53896 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53897 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53897 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53897 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53898 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53898 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53899 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53898 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53899 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53899 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53900 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53901 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53900 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53900 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53901 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53901 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53902 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53902 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53902 Closing
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53905 Accepted
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53905 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:37:50 2026] 127.0.0.1:53905 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53921 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53922 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53921 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53921 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53922 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53922 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53923 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53923 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53923 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53924 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53925 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53924 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53925 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53924 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53925 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53926 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53927 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53926 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53926 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53927 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53927 Closing
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53929 Accepted
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53929 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:38:13 2026] 127.0.0.1:53929 Closing
+[Sat Oct 31 15:38:15 2026] 127.0.0.1:53931 Accepted
+[Sat Oct 31 15:38:15 2026] 127.0.0.1:53931 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:38:15 2026] 127.0.0.1:53931 Closing
+[Sat Oct 31 15:38:16 2026] 127.0.0.1:53936 Accepted
+[Sat Oct 31 15:38:16 2026] 127.0.0.1:53936 [200]: POST /backend/api/settings.php
+[Sat Oct 31 15:38:16 2026] 127.0.0.1:53936 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53947 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53947 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53947 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53948 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53948 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53949 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53949 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53948 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53949 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53950 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53951 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53950 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53951 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53950 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53951 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53952 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53952 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53952 Closing
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53953 Accepted
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53953 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:38:28 2026] 127.0.0.1:53953 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53957 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53957 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53957 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53958 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53958 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53958 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53959 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53959 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53959 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53960 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53960 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53961 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53961 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53960 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53961 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53962 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53962 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53962 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53963 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53964 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53963 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53963 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53964 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53964 Closing
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53967 Accepted
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53967 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:38:33 2026] 127.0.0.1:53967 Closing
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53974 Accepted
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53974 [201]: POST /backend/api/movimientos.php
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53974 Closing
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53976 Accepted
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53976 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 15:38:45 2026] 127.0.0.1:53976 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53981 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53981 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53981 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53982 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53982 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53982 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53983 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53983 [200]: GET /frontend/css/main.css
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53983 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53984 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53984 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53984 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53985 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53985 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53985 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53986 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53986 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53986 Closing
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53987 Accepted
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53987 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 15:38:49 2026] 127.0.0.1:53987 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54932 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54932 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54932 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54933 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54933 [302]: GET /
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54933 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54934 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54934 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54934 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54935 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54936 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54935 [302]: GET /
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54935 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54936 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54936 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54937 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54937 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54937 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54938 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54938 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54938 Closing
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54939 Accepted
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54939 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:10:59 2026] 127.0.0.1:54939 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54940 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54940 [200]: POST /backend/auth/login.php
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54940 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54942 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54942 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54942 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54943 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54944 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54943 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54944 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54943 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54944 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54945 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54945 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54945 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54946 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54946 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54946 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54947 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54947 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54947 Closing
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54948 Accepted
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54948 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 16:11:07 2026] 127.0.0.1:54948 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54950 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54950 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54950 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54951 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54952 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54951 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54953 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54952 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54953 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54954 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54951 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54954 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54952 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54953 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54954 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54955 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54955 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54955 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54956 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54956 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54956 Closing
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54958 Accepted
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54958 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 16:11:10 2026] 127.0.0.1:54958 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54973 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54973 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54973 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54974 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54974 [302]: GET /
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54974 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54975 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54975 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54975 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54976 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54977 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54976 [302]: GET /
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54976 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54977 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54977 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54978 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54978 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54978 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54979 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54979 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54979 Closing
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54980 Accepted
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54980 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:13:13 2026] 127.0.0.1:54980 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54984 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54984 [200]: POST /backend/auth/login.php
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54984 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54986 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54986 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54986 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54987 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54988 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54987 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54987 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54988 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54989 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54989 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54988 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54989 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54990 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54990 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54990 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54991 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54991 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54991 Closing
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54992 Accepted
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54992 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 16:13:23 2026] 127.0.0.1:54992 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54994 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54994 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54994 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54995 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54996 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54996 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54996 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54995 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54995 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54997 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54998 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54997 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54998 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54997 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54998 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54999 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54999 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:54999 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55000 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55000 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55000 Closing
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55001 Accepted
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55001 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 16:13:26 2026] 127.0.0.1:55001 Closing
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55029 Accepted
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55029 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55029 Closing
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55030 Accepted
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55030 [302]: GET /
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55030 Closing
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55031 Accepted
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55031 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:15:29 2026] 127.0.0.1:55031 Closing
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55032 Accepted
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55032 [302]: GET /
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55032 Closing
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55033 Accepted
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55034 Accepted
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55033 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55033 Closing
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55034 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55035 Accepted
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55036 Accepted
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55035 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55036 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55034 Closing
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55035 Closing
+[Sat Oct 31 16:15:30 2026] 127.0.0.1:55036 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55039 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55039 [200]: POST /backend/auth/login.php
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55039 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55041 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55041 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55041 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55042 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55043 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55043 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55042 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55043 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55042 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55044 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55044 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55045 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55044 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55045 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55045 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55046 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55046 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55046 Closing
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55047 Accepted
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55047 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 16:15:38 2026] 127.0.0.1:55047 Closing
+[Sat Oct 31 16:15:52 2026] 127.0.0.1:55049 Accepted
+[Sat Oct 31 16:15:52 2026] 127.0.0.1:55049 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 16:15:52 2026] 127.0.0.1:55050 Accepted
+[Sat Oct 31 16:15:52 2026] 127.0.0.1:55049 Closing
+[Sat Oct 31 16:17:21 2026] 127.0.0.1:55050 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 16:17:21 2026] 127.0.0.1:55050 Closing
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55111 Accepted
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55111 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55111 Closing
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55112 Accepted
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55112 [302]: GET /
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55112 Closing
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55113 Accepted
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55113 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:19:18 2026] 127.0.0.1:55113 Closing
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55114 Accepted
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55115 Accepted
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55114 [302]: GET /
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55114 Closing
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55115 [200]: GET /frontend/views/login.html
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55115 Closing
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55116 Accepted
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55117 Accepted
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55118 Accepted
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55116 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55117 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55118 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55116 Closing
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55117 Closing
+[Sat Oct 31 16:19:19 2026] 127.0.0.1:55118 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55119 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55119 [200]: POST /backend/auth/login.php
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55119 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55121 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55121 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55121 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55122 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55123 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55122 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55123 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55122 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55123 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55124 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55124 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55124 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55125 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55125 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55125 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55126 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55126 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55126 Closing
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55127 Accepted
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55127 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 16:19:26 2026] 127.0.0.1:55127 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55129 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55129 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55129 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55130 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55131 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55130 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55130 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55131 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55131 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55132 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55132 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55132 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55133 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55133 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55133 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55134 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55134 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55134 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55135 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55135 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55135 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55136 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55136 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55136 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55139 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55139 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55139 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55142 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55142 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55143 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55142 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55143 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55143 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55144 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55144 [200]: GET /frontend/css/main.css
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55144 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55145 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55145 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55146 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55146 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55145 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55146 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55147 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55147 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55147 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55148 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55149 Accepted
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55148 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55148 Closing
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55149 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 16:19:28 2026] 127.0.0.1:55149 Closing
+[Sat Oct 31 16:19:29 2026] 127.0.0.1:55152 Accepted
+[Sat Oct 31 16:19:29 2026] 127.0.0.1:55152 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:29 2026] 127.0.0.1:55152 Closing
+[Sat Oct 31 16:19:30 2026] 127.0.0.1:55155 Accepted
+[Sat Oct 31 16:19:30 2026] 127.0.0.1:55155 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:30 2026] 127.0.0.1:55155 Closing
+[Sat Oct 31 16:19:31 2026] 127.0.0.1:55157 Accepted
+[Sat Oct 31 16:19:31 2026] 127.0.0.1:55157 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:31 2026] 127.0.0.1:55157 Closing
+[Sat Oct 31 16:19:47 2026] 127.0.0.1:55159 Accepted
+[Sat Oct 31 16:19:47 2026] 127.0.0.1:55159 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:47 2026] 127.0.0.1:55159 Closing
+[Sat Oct 31 16:19:48 2026] 127.0.0.1:55161 Accepted
+[Sat Oct 31 16:19:48 2026] 127.0.0.1:55161 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:48 2026] 127.0.0.1:55161 Closing
+[Sat Oct 31 16:19:49 2026] 127.0.0.1:55163 Accepted
+[Sat Oct 31 16:19:49 2026] 127.0.0.1:55163 [200]: POST /backend/api/settings.php
+[Sat Oct 31 16:19:49 2026] 127.0.0.1:55163 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55442 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55442 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55442 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55443 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55444 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55444 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55444 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55443 [200]: GET /frontend/css/main.css
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55443 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55445 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55446 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55445 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55446 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55445 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55446 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55447 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55447 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55447 Closing
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55448 Accepted
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55448 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 17:32:33 2026] 127.0.0.1:55448 Closing
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55450 Accepted
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55450 [200]: POST /backend/auth/logout.php
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55450 Closing
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55452 Accepted
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55452 [200]: GET /frontend/views/login.html
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55453 Accepted
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55452 Closing
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55453 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55454 Accepted
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55453 Closing
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55455 Accepted
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55454 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55455 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55454 Closing
+[Sat Oct 31 17:32:35 2026] 127.0.0.1:55455 Closing
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55462 Accepted
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55462 [200]: GET /frontend/views/register.html
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55463 Accepted
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55462 Closing
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55463 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55463 Closing
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55464 Accepted
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55464 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55464 Closing
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55465 Accepted
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55465 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:33:44 2026] 127.0.0.1:55465 Closing
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55469 Accepted
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55469 [200]: GET /frontend/views/login.html
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55469 Closing
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55470 Accepted
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55470 [200]: GET /frontend/css/auth.css
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55470 Closing
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55471 Accepted
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55471 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55472 Accepted
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55472 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55471 Closing
+[Sat Oct 31 17:34:42 2026] 127.0.0.1:55472 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55474 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55474 [200]: POST /backend/auth/login.php
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55474 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55476 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55476 [200]: GET /frontend/views/dashboard.html
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55476 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55477 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55478 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55477 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55477 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55478 [200]: GET /frontend/css/main.css
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55478 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55479 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55480 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55479 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55480 [200]: GET /frontend/js/dashboard.js
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55479 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55480 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55481 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55481 [200]: GET /backend/api/movimientos.php
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55481 Closing
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55482 Accepted
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55482 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:34:50 2026] 127.0.0.1:55482 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55490 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55490 [200]: GET /frontend/views/movimientos.html
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55490 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55491 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55491 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55492 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55492 [200]: GET /frontend/css/main.css
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55491 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55492 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55493 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55493 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55493 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55494 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55494 [200]: GET /frontend/js/movimientos.js
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55494 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55495 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55495 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55495 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55496 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55496 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55496 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55497 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55497 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55497 Closing
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55500 Accepted
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55500 [200]: GET /backend/api/movimientos.php?cat=&medio=&desde=&hasta=
+[Sat Oct 31 17:35:42 2026] 127.0.0.1:55500 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55510 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55510 [200]: GET /frontend/views/settings.html
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55511 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55510 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55511 [200]: GET /frontend/css/themes.css
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55512 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55511 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55512 [200]: GET /frontend/css/main.css
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55512 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55513 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55514 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55513 [200]: GET /frontend/js/auth.js
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55514 [200]: GET /frontend/js/settings.js
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55513 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55514 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55515 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55515 [200]: GET /frontend/assets/finanty-mark.svg
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55515 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55516 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55517 Accepted
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55517 [200]: GET /backend/api/categorias.php
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55517 Closing
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55516 [200]: GET /backend/api/medios_pago.php
+[Sat Oct 31 17:37:25 2026] 127.0.0.1:55516 Closing

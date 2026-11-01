@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="automatico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanty - Dashboard</title>
+    <link rel="stylesheet" href="../css/themes.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/auth.js" defer></script>
+    <script src="../js/dashboard.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <aside id="sb">
+            <div class="br">Finanty</div>
+            <button class="ni on" onclick="window.location.href='dashboard.html'"><span class="nav-icon" aria-hidden="true">⌂</span>Dashboard</button>
+            <button class="ni" onclick="window.location.href='movimientos.html'"><span class="nav-icon" aria-hidden="true">↔</span>Movimientos</button>
+            <button class="ni" onclick="window.location.href='settings.html'"><span class="nav-icon" aria-hidden="true">⚙</span>Configuración</button>
+            <button class="ni logout-link" onclick="Auth.logout()" style="margin-top:auto; color:var(--er);"><span class="nav-icon" aria-hidden="true">↪</span>Cerrar sesión</button>
+        </aside>
+        <main id="mn">
+            <header class="hd">
+                <div class="tt">Panel General</div>
+            </header>
+            <div id="vw">
+                <section class="dashboard-welcome" aria-labelledby="welcome-title">
+                    <div><p class="eyebrow">TU PANORAMA FINANCIERO</p><h1 id="welcome-title">Hola, <span id="user-name">bienvenida</span></h1><p>Un resumen claro de tus ingresos, gastos y actividad.</p></div>
+                    <button class="btn pri dashboard-cta" type="button" onclick="window.location.href='movimientos.html'">＋ Registrar movimiento</button>
+                </section>
+                <div class="gr g3" style="margin-bottom:25px;">
+                    <div class="kp">
+                        <span class="kl">Total Ingresos</span>
+                        <div class="kv pos" id="kpi-ingresos">$ 0.00</div>
+                    </div>
+                    <div class="kp">
+                        <span class="kl">Total Gastos</span>
+                        <div class="kv neg" id="kpi-gastos">$ 0.00</div>
+                    </div>
+                    <div class="kp">
+                        <span class="kl">Balance Neto</span>
+                        <div class="kv" id="kpi-balance">$ 0.00</div>
+                    </div>
+                </div>
+                <div class="gr g2">
+                    <div class="card">
+                        <h3>Comparativa General</h3>
+                        <div id="chartIG" class="chart-bars" aria-label="Comparación de ingresos y gastos"></div>
+                    </div>
+                    <div class="card">
+                        <h3>Distribución de Gastos</h3>
+                        <div id="chartCat" class="chart-bars chart-categories" aria-label="Gastos por categoría"></div>
+                    </div>
+                </div>
+                <section class="card recent-card" aria-labelledby="recent-title">
+                    <h3 id="recent-title">Actividad reciente</h3>
+                    <ol class="recent-list" id="recent-list"><li class="empty-state">Cargando tus movimientos…</li></ol>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
