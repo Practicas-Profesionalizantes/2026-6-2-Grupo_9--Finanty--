@@ -81,12 +81,46 @@ function llenarTiposMedio(tipoSeleccionado = '') {
 function actualizarMediosFormulario(medioSeleccionado = '') {
     const typeId = document.getElementById('f_tipo_medio').value;
     const select = document.getElementById('f_medio');
-    const disponibles = medios.filter(m => Number(m.id_tipo_medio) === Number(typeId));
-    select.innerHTML = `<option value="">${typeId ? (disponibles.length ? 'Seleccionar medio' : 'No hay medios cargados para este tipo') : 'Primero seleccioná un tipo'}</option>` +
-        disponibles.map(m => `<option value="${Number(m.id_medio)}">${escapar(m.nombre)}</option>`).join('');
+
+    const disponibles = medios.filter(m =>
+        String(m.id_tipo_medio) === String(typeId)
+    );
+
+    const tipoActual = tiposMedio.find(t =>
+        String(t.id_tipo_medio) === String(typeId)
+    );
+
+    const esEfectivo =
+        tipoActual?.nombre?.trim().toLowerCase() === 'efectivo';
+
+    select.innerHTML =
+        '<option value="">Seleccionar medio</option>' +
+        disponibles.map(m =>
+            `<option value="${Number(m.id_medio)}">${escapar(m.nombre)}</option>`
+        ).join('');
+
     select.disabled = !typeId || disponibles.length === 0;
-    if (medioSeleccionado) select.value = String(medioSeleccionado);
+
+    if (medioSeleccionado) {
+        select.value = String(medioSeleccionado);
+    } else if (esEfectivo) {
+        const efectivo = disponibles.find(m =>
+            m.nombre?.trim().toLowerCase() === 'efectivo'
+        );
+
+        if (efectivo) {
+            select.value = String(efectivo.id_medio);
+        }
+    }
+
+    if (esEfectivo && !select.value) {
+        console.warn(
+            'No se encontró Efectivo en los medios cargados.',
+            { typeId, disponibles, medios }
+        );
+    }
 }
+
 
 function abrirModalNuevo() {
     movimientoEditando = null;
