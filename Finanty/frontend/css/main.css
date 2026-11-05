@@ -337,3 +337,38 @@ body{font-family:Inter,"Segoe UI",system-ui,sans-serif;background:linear-gradien
 .setting-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 1px;border-bottom:1px solid var(--bd);font-size:10px}.setting-row:last-child{border-bottom:0}
 .setting-row .btn{min-height:26px;padding:4px 8px;font-size:9px}
 @media(max-width:650px){.settings-section{padding:17px!important}.theme-options{grid-template-columns:1fr}.theme-option{grid-template-columns:1fr 28px}.theme-preview{grid-column:1/-1;height:54px}.theme-option strong,.theme-option small{grid-column:1}.category-groups,.payment-method-groups{grid-template-columns:1fr}.settings-intro{align-items:flex-start;flex-direction:column}.settings-add-form{grid-template-columns:1fr}.section-title-row{align-items:flex-start;flex-direction:column}}
+/* Desplazamiento horizontal de la tabla de movimientos */
+
+.card:has(#tabla-movimientos-body) {
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.card:has(#tabla-movimientos-body) table {
+    width: 100%;
+    min-width: 950px;
+    white-space: nowrap;
+}
+
+.card:has(#tabla-movimientos-body) th,
+.card:has(#tabla-movimientos-body) td {
+    white-space: nowrap;
+}
+
+/* Barra de desplazamiento */
+.card:has(#tabla-movimientos-body)::-webkit-scrollbar {
+    height: 9px;
+}
+
+.card:has(#tabla-movimientos-body)::-webkit-scrollbar-thumb {
+    background: #a5b9ad;
+    border-radius: 10px;
+}
+
+.card:has(#tabla-movimientos-body)::-webkit-scrollbar-track {
+    background: #edf2ee;
+    border-radius: 10px;
+}
+
